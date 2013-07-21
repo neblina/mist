@@ -13,5 +13,10 @@ phisical machine. Containers can be executed in different phisical machines, and
 conected witch each other. A cell can then move freely between containers, and it 
 is a job of containers to keep all in consistent state.
 
+In this project there is goint to be a few layes of programming languages that allows
+creation of complex applications. Starting from  the bottom layer by layer up to 
+the most abstract ones. 
 
-
+The long time goal of this project is to create a good and solid enviroment to apply
+evolutionary self modifing and self optimizimg software, with self detections and 
+left healing features. 
