@@ -3,4 +3,6 @@ Mist Project.
 This is a project which goal is to create a simple virtual machine
 that could run graph base programs. Each program is a simple graph 
 of cells, where each cell is a simple "CPU" that can compute and manipulate 
-very simple peace of information.  
+very simple peace of information. A whole program is a set of cells ( simple CPUs )
+that compute and exchange simple messages with each other. Ther is no distinction
+between RAM and CPU. There is only a cell, which is a RAM and CPU in once. 
