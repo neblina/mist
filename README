@@ -4,5 +4,14 @@ This is a project which goal is to create a simple virtual machine
 that could run graph base programs. Each program is a simple graph 
 of cells, where each cell is a simple "CPU" that can compute and manipulate 
 very simple peace of information. A whole program is a set of cells ( simple CPUs )
-that compute and exchange simple messages with each other. Ther is no distinction
+that compute and exchange simple messages with each other. There is no distinction
 between RAM and CPU. There is only a cell, which is a RAM and CPU in once. 
+
+Each cell is in a container that runs the code of the cell. A container is simply
+a virutal machine that iterpretes the code. There can be meny containers in one 
+phisical machine. Containers can be executed in different phisical machines, and 
+conected witch each other. A cel can then move freely between containers, and it 
+is a job of containers to keep all in consisten state.
+
+
+
