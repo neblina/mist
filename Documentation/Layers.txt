@@ -1,0 +1,16 @@
+Project is based on multiple small and simple layers. Each layer is responsible for one simple task. Every other layer
+uses the previous ones. This is for simplicity and reduction of errors that may appear as the software is written.
+
+The structure of layers is bidirectional. It means that layers goes up, to more abstract approach, as well as down, to more and more technical 
+one. Layer zero is the actual program, i.e. the graph of cells exchanging messages. 
+
+Negative numberd layers are for managing program, for example to mange and monitor which part of the program is running and 
+which is not used at all. For example layer -1 may be responsible for monitoring the activity of individual cells, gathering 
+information such as the number of messages per second going in and out in the cell. The layer -2 may be responsible for 
+managing groups of cells and being able to stop them or migrate to other machine (the whole group).
+
+Positive numbered layers are for building the complexity of the program itself. So for instance, layer 1, may be uesd to construct 
+simple tasks needed for computation. Layer 2  can represent the virtual machine that is designed using layer 1. Layers 3, someting 
+equivalent to operating system. Layer 4, the API for more complex applications, and so on.
+
+
