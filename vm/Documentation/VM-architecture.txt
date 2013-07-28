@@ -1,0 +1,13 @@
+There are the components:
+
+1. Load Bucket of cells (used for loading from files or other sources).
+2. Runtime Bucket of cells ( cells that are executed by vm).
+3. Queue of messages (one queue for all cells).
+
+
+Threads:
+
+1. Thread that runns all cells
+2. Thread that is responsible for communcations with outside world ( i.e. loading cells to Load Bucket)
+3. Thread used to network connections (maybe multible ones, one per connection, we will see)
+ 

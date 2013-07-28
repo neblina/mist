@@ -1,0 +1,7 @@
+A cell has one output and two inputs. A cell knows from which input a message came. A cell has only two states. Every message 
+on any input produces an output and triggers change of state. Each input is a one bit data. Each output is one bit data
+as well.
+
+Cells are connected to each other and the connection is determined on the compilation time, cannot be change
+in run time.
+
