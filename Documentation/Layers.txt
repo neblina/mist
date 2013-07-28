@@ -12,5 +12,3 @@ managing groups of cells and being able to stop them or migrate to other machine
 Positive numbered layers are for building the complexity of the program itself. So for instance, layer 1, may be uesd to construct 
 simple tasks needed for computation. Layer 2  can represent the virtual machine that is designed using layer 1. Layers 3, someting 
 equivalent to operating system. Layer 4, the API for more complex applications, and so on.
-
-

@@ -21,3 +21,8 @@ The long time goal of this project is to create a good and solid enviroment to a
 evolutionary self modifing and self optimizimg software, with self detections and 
 left healing features. 
 
+Source code structure.
+vm - virtual machine 
+cluster - management of virtual machines through network
+compiler - compiler to byte code
+tools - various uset space tools to manage vm and cluster
