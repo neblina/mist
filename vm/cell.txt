@@ -1,0 +1,8 @@
+cell has two in 
+cell has two out
+cell has int (multiple) states.
+
+cell has is (int)
+cell has code (any possible combination of in/out/state)
+
+every message triggers output (any/bouth/one/none) and change of state (none/any other state)
